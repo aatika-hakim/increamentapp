@@ -12,6 +12,7 @@ const App = () => {
     if(num > 0){
       setNum(num - 1);
     }else{
+      alert("0 limit has reached");
       setNum(0);
     }
     
